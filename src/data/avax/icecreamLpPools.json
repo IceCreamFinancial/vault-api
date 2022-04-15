@@ -1,0 +1,59 @@
+[
+  {
+    "name": "icecream-cream-avax",
+    "address": "0x00C87ce7188F7652d0C0940274cEC5db62f1e825",
+    "decimals": "1e18",
+    "poolId": 0,
+    "chainId": 43114,
+    "lp0": {
+      "address": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "oracle": "tokens",
+      "oracleId": "AVAX",
+      "decimals": "1e18"
+    },
+    "lp1": {
+      "address": "0xAE21d31a6494829a9E4B2B291F4984AAE8121757",
+      "oracle": "tokens",
+      "oracleId": "CREAM",
+      "decimals": "1e18"
+    }
+  },
+  {
+    "name": "icecream-cshare-avax",
+    "address": "0xbD61dFAd83Fc19960476abca1324FfD798234c66",
+    "decimals": "1e18",
+    "poolId": 1,
+    "chainId": 43114,
+    "lp0": {
+      "address": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "oracle": "tokens",
+      "oracleId": "AVAX",
+      "decimals": "1e18"
+    },
+    "lp1": {
+      "address": "0x155f794b56353533E0AfBF76e1B1FC57DFAd5Bd7",
+      "oracle": "tokens",
+      "oracleId": "CSHARE",
+      "decimals": "1e18"
+    }
+  },
+  {
+    "name": "icecream-cream-cshare",
+    "address": "0xeC1e129BbAac3DdE156643F5d41FC9b5a59033a7",
+    "decimals": "1e18",
+    "poolId": 2,
+    "chainId": 43114,
+    "lp0": {
+      "address": "0x155f794b56353533E0AfBF76e1B1FC57DFAd5Bd7",
+      "oracle": "tokens",
+      "oracleId": "CSHARE",
+      "decimals": "1e18"
+    },
+    "lp1": {
+      "address": "0xAE21d31a6494829a9E4B2B291F4984AAE8121757",
+      "oracle": "tokens",
+      "oracleId": "CREAM",
+      "decimals": "1e18"
+    }
+  }
+]

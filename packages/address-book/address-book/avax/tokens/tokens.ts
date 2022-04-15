@@ -15,6 +15,73 @@ const AVAX = {
 } as const;
 
 const _tokens = {
+  CREAM: {
+    chainId: 43114,
+    address: '0xAE21d31a6494829a9E4B2B291F4984AAE8121757',
+    decimals: 18,
+    name: 'CREAM Token',
+    symbol: 'CREAM',
+    website: 'https://icecreamfinance.app/#/',
+    description:
+      'Algo stablecoin on Avalanche C Chain, pegged to the price of 1 AVAX via seigniorage.',
+    logoURI: 'https://raw.githubusercontent.com/IceCreamFinancial/froyoassets/main/CREAM.png',
+  },
+  CSHARE: {
+    chainId: 43114,
+    address: '0x155f794b56353533E0AfBF76e1B1FC57DFAd5Bd7',
+    decimals: 18,
+    name: 'CSHARE Token',
+    symbol: 'CSHARE',
+    website: 'https://icecreamfinance.app/#/',
+    description:
+      'Algo stablecoin on Avalanche C Chain, pegged to the price of 1 AVAX via seigniorage.',
+    logoURI: 'https://raw.githubusercontent.com/IceCreamFinancial/froyoassets/main/CSHARE.png',
+  },
+  FUDGE: {
+    chainId: 43114,
+    address: '0xD9FF12172803c072a36785DeFea1Aa981A6A0C18',
+    decimals: 18,
+    name: 'FUDGE Token',
+    symbol: 'FUDGE',
+    website: 'https://www.sundaefinance.app/#/',
+    description:
+      'Algo stablecoin on Avalanche C Chain, pegged to the price of 1 DAI via seigniorage.',
+    logoURI: 'https://raw.githubusercontent.com/IceCreamFinancial/froyoassets/main/FUDGE.png',
+  },
+  STRAW: {
+    chainId: 43114,
+    address: '0xf8D0C6c3ddC03F43A0687847f2b34bfd6941C2A2',
+    decimals: 18,
+    name: 'STRAW Token',
+    symbol: 'STRAW',
+    website: 'https://www.sundaefinance.app/#/',
+    description:
+      'Algo stablecoin on Avalanche C Chain, pegged to the price of 1 DAI via seigniorage.',
+    logoURI: 'https://raw.githubusercontent.com/IceCreamFinancial/froyoassets/main/STRAW.png',
+  },
+  ARGOS: {
+    chainId: 43114,
+    address: '0x8F4b642440381833D4daea9aC7b0B8C9aBC9a600',
+    decimals: 18,
+    name: 'ARGOS Token',
+    symbol: 'ARGOS',
+    website: 'https://argos.financial/#/',
+    description:
+      'Algo stablecoin on Avalanche C Chain, pegged to the price of JOE via seigniorage.',
+    logoURI: 'https://raw.githubusercontent.com/IceCreamFinancial/froyoassets/main/ARGOS.png',
+  },
+  ASHARE: {
+    chainId: 43114,
+    address: '0xe9067be19c824d7ad82e35333152EB0c593AB454',
+    decimals: 18,
+    name: 'ASHARE Token',
+    symbol: 'ASHARE',
+    website: 'https://argos.financial/#/',
+    description:
+      'Algo stablecoin on Avalanche C Chain, pegged to the price of JOE via seigniorage.',
+    logoURI: 'https://raw.githubusercontent.com/IceCreamFinancial/froyoassets/main/ASHARE.png',
+  },
+
   STG: {
     name: 'Stargate',
     symbol: 'STG',
@@ -1181,15 +1248,6 @@ const _tokens = {
     symbol: 'COVER',
     logoURI:
       'https://raw.githubusercontent.com/ava-labs/bridge-tokens/main/avalanche-tokens/0xe35f68f3DE8590F3FD6884Eef166AF9f414D75F7/logo.png',
-  },
-  CREAM: {
-    chainId: 43114,
-    address: '0xb9AB39F9b4E3af0c97aE55EA48A960656C681A88',
-    decimals: 18,
-    name: 'Cream',
-    symbol: 'CREAM',
-    logoURI:
-      'https://raw.githubusercontent.com/ava-labs/bridge-tokens/main/avalanche-tokens/0xb9AB39F9b4E3af0c97aE55EA48A960656C681A88/logo.png',
   },
   cyUSD: {
     chainId: 43114,

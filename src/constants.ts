@@ -106,7 +106,7 @@ const BSC_VAULTS_ENDPOINT =
 const HECO_VAULTS_ENDPOINT =
   'https://raw.githubusercontent.com/beefyfinance/beefy-app/prod/src/features/configure/vault/heco_pools.js';
 const AVAX_VAULTS_ENDPOINT =
-  'https://raw.githubusercontent.com/beefyfinance/beefy-app/prod/src/features/configure/vault/avalanche_pools.js';
+  'https://raw.githubusercontent.com/IceCreamFinancial/froyoassets/main/avalanche_pools.js';
 const POLYGON_VAULTS_ENDPOINT =
   'https://raw.githubusercontent.com/beefyfinance/beefy-app/prod/src/features/configure/vault/polygon_pools.js';
 const FANTOM_VAULTS_ENDPOINT =

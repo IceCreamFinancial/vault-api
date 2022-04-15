@@ -8,6 +8,10 @@ import { fetchStargatePrices } from '../../utils/fetchStargatePrices';
 import { fetchbeFTMPrice } from '../../utils/fetchbeFTMPrice';
 import { fetchCoinGeckoPrices } from '../../utils/fetchCoinGeckoPrices';
 
+import argosLpPools from '../../data/avax/argosLpPools.json';
+import sundaeLpPools from '../../data/avax/sundaeLpPools.json';
+import icecreamLpPools from '../../data/avax/icecreamLpPools.json';
+
 import getNonAmmPrices from './getNonAmmPrices';
 import bakeryPools from '../../data/bakeryLpPools.json';
 import blizzardLpPools from '../../data/degens/blizzardLpPools.json';
@@ -226,6 +230,9 @@ const REFRESH_INTERVAL = 5 * 60 * 1000;
 // FIXME: if this list grows too big we might hit the ratelimit on initialization everytime
 // Implement in case of emergency -> https://github.com/beefyfinance/beefy-api/issues/103
 const pools = [
+  ...argosLpPools,
+  ...icecreamLpPools,
+  ...sundaeLpPools,
   ...empLpPools,
   ...bombSwapPools,
   ...voltagePools,

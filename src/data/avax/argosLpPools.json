@@ -1,0 +1,40 @@
+[
+  {
+    "name": "argos-argos-joe",
+    "address": "0x539d67e4B630c2a3302f9b5769D36cf18500b345",
+    "decimals": "1e18",
+    "poolId": 0,
+    "chainId": 43114,
+    "lp0": {
+      "address": "0x6e84a6216eA6dACC71eE8E6b0a5B7322EEbC0fDd",
+      "oracle": "tokens",
+      "oracleId": "JOE",
+      "decimals": "1e18"
+    },
+    "lp1": {
+      "address": "0x8F4b642440381833D4daea9aC7b0B8C9aBC9a600",
+      "oracle": "tokens",
+      "oracleId": "ARGOS",
+      "decimals": "1e18"
+    }
+  },
+  {
+    "name": "argos-ashare-joe",
+    "address": "0xBB8F2271FA9dB1f514Ce0f072d82A5daC80313ad",
+    "decimals": "1e18",
+    "poolId": 1,
+    "chainId": 43114,
+    "lp0": {
+      "address": "0x6e84a6216eA6dACC71eE8E6b0a5B7322EEbC0fDd",
+      "oracle": "tokens",
+      "oracleId": "JOE",
+      "decimals": "1e18"
+    },
+    "lp1": {
+      "address": "0xe9067be19c824d7ad82e35333152EB0c593AB454",
+      "oracle": "tokens",
+      "oracleId": "ASHARE",
+      "decimals": "1e18"
+    }
+  }
+]

@@ -1,18 +1,11 @@
-const cowllector = '0xd529b1894491a0a26B18939274ae8ede93E81dbA';
-const treasuryMultisig = '0x26dE4EBffBE8d3d632A292c972E3594eFc2eCeEd';
-
 export const beefyfinance = {
-  strategyOwner: '0x37DC61A76113E7840d4A8F1c1B799cC9ac5Aa854',
-  vaultOwner: '0x690216f462615b749bEEB5AA3f1d89a2BEc45Ecf',
-  keeper: '0x340465d9D2EbDE78F15a3870884757584F97aBB4',
-  rewarder: cowllector,
-  treasuryMultisig,
-  treasurer: treasuryMultisig,
-  launchpoolOwner: cowllector,
-  devMultisig: '0x3A0b8B7a3ea8D1670e000b1Da5bD41373bF8da42',
-  rewardPool: '0x86d38c6b6313c5A3021D68D1F57CF5e69197592A',
-  treasury: '0xA3e3Af161943CfB3941B631676134bb048739727',
-  beefyFeeRecipient: '0x8Ef7C232470f85Af0809ce5E43888F989eFcAF47',
-  multicall: '0x6FfF95AC47b586bDDEea244b3c2fe9c4B07b9F76',
-  bifiMaxiStrategy: '0xca077eEC87e2621F5B09AFE47C42BAF88c6Af18c',
+  router: '0x60aE616a2155Ee3d9A68541Ba4544862310933d4', // trader joe router contract
+  strategyOwner: '0xa702abE706D6fd3F0a5d6661953A184c33B7AB1C', //icf dev
+  vaultOwner: '0xa702abE706D6fd3F0a5d6661953A184c33B7AB1C', //icf dev
+  keeper: '0x36cd24412aaF614F33BD3C5A7f859db0Befb8575', //icf dao
+  beefyFeeRecipient: '0x36cd24412aaF614F33BD3C5A7f859db0Befb8575', //icf dao
+  gasPrice: '0x6EF68D85aaAe632313E65764d615DD414f080fD9', //gas price contract
+  multicall: '0xB94858b0bB5437498F5453A16039337e5Fdc269C', //multicall contract
+  rewardPool: '0xe6C930bB6CFBae74a542f68ec00C23a20de8357E', // froyofarm rewardpool contract
+  treasury: '0x1Ce888b9Ea81d1253460A3d0A81b212D5134460d', //farm treasury contract
 } as const;

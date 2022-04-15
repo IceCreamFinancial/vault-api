@@ -1,0 +1,40 @@
+[
+  {
+    "name": "sundae-fudge-dai",
+    "address": "0xE367414f29E247b2D92edd610aA6Dd5A7FD631BA",
+    "decimals": "1e18",
+    "poolId": 0,
+    "chainId": 43114,
+    "lp0": {
+      "address": "0xd586E7F844cEa2F87f50152665BCbc2C279D8d70",
+      "oracle": "tokens",
+      "oracleId": "DAI",
+      "decimals": "1e18"
+    },
+    "lp1": {
+      "address": "0xD9FF12172803c072a36785DeFea1Aa981A6A0C18",
+      "oracle": "tokens",
+      "oracleId": "FUDGE",
+      "decimals": "1e18"
+    }
+  },
+  {
+    "name": "sundae-straw-avax",
+    "address": "0x5eeF38855090ccc49A1b7391F4C7B9efbDFE1456",
+    "decimals": "1e18",
+    "poolId": 1,
+    "chainId": 43114,
+    "lp0": {
+      "address": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "oracle": "tokens",
+      "oracleId": "AVAX",
+      "decimals": "1e18"
+    },
+    "lp1": {
+      "address": "0xf8D0C6c3ddC03F43A0687847f2b34bfd6941C2A2",
+      "oracle": "tokens",
+      "oracleId": "STRAW",
+      "decimals": "1e18"
+    }
+  }
+]
