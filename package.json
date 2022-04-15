@@ -1,7 +1,6 @@
 {
-  "name": "beefy-api",
-  "version": "1.0.0",
-  "repository": "beefyfinance/beefy-api",
+  "name": "froyo-api",
+  "version": "1.0.1",
   "license": "MIT",
   "scripts": {
     "install-all": "yarn && cd packages/address-book && yarn",
