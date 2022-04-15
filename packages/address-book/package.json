@@ -1,6 +1,6 @@
 {
-  "name": "blockchain-addressbook",
-  "version": "0.24.4",
+  "name": "froyo-addressbook",
+  "version": "1.0.2",
   "description": "A collection of useful addresses on various chains for defi development",
   "main": "build/address-book/index.js",
   "types": "build/address-book/index.d.ts",
@@ -9,7 +9,7 @@
     "build/util/",
     "build/types/"
   ],
-  "repository": "beefyfinance/beefy-api",
+  "repository": "icecreamfinancial/vault-api",
   "license": "MIT",
   "scripts": {
     "compile": "tsc",
