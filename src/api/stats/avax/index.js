@@ -50,7 +50,6 @@ const getApys = [
   getRipaeApys,
   getStargateApys,
   getIceCreamApys,
-  getArgosApys,
   getSundaeApys,
 ];
 
